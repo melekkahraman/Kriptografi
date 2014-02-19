@@ -8,8 +8,8 @@ sayi=gets.strip
 sayi=sayi.to_f
 karekok=Math.sqrt(sayi)
 while i<karekok
-  asılkok=Math.sqrt(i)
-  while l<asılkok
+  asilkok=Math.sqrt(i)
+  while l<asilkok
     if i%l==0
       deger=0
     else
