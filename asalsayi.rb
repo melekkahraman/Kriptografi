@@ -11,10 +11,10 @@ while i<karekok
   asilkok=Math.sqrt(i)
   while l<asilkok
     if i%l==0
-      deger=0
-    else
       deger=1
       break
+    else
+      deger=0
     end
     if deger==0
       number[z]=l
@@ -25,10 +25,11 @@ while i<karekok
 end
 while m<z
   if sayi%number[m]==0
+    kontrol=1
+    break
+  else
     kontrol=0
     m=m+1
-  else
-    kontrol=1
   end
   if kontrol==0
     puts "Girdiğiniz sayi asaldir"
